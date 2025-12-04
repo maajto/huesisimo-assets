@@ -16,12 +16,20 @@
         padding: 0 !important;
 
     }
-    .male-template{
+    .male-template, .entry-content{
         width: 100dvw;
         display: flex;
         flex-direction: column;
         max-width: 1440px;
         margin: 0 auto;
+
+        .wp-block-group{
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
     }
 
     .banner{
