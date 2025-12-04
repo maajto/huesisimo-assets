@@ -24,7 +24,7 @@
         max-width: 1440px;
         margin: 0 auto;
 
-        .wp-block-group{
+        > .wp-block-group{
             max-width: 100% !important;
             padding: 0 !important;
             margin-left: 0;
@@ -315,6 +315,7 @@
             height: auto;
             position: relative;
             padding-top: 30dvh;
+            overflow: visible;
             .wp-block-media-text__media{
                 max-height: 40dvh;
                 position: absolute;
