@@ -107,6 +107,9 @@
             margin-top: 0;
            
         }
+        p strong{
+            font-size: 20px;
+        }
         
         .wp-block-image{
             display: flex;
