@@ -73,6 +73,7 @@
             background-size: contain;
             background-position: left center;
             position: relative;
+            background-repeat: no-repeat;
             display: flex;
         }
         .wp-block-image{
@@ -294,7 +295,7 @@
             }
             h3{
                 strong{
-                    font-size: 40px;
+                    font-size: 34px;
                 }
             }
             p{
