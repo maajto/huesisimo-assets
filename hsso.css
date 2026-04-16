@@ -92,12 +92,14 @@
         align-items: center;
         gap: 1.5em;
         row-gap: 2.5em;
-        strong{
-            color: #CB342A;
-            font-size: 38px;
-        }
+        
         h3,h4,h2{
             font-size: 52px;
+           
+        }
+        h2,h3,h4 strong{
+            color: #CB342A;
+            font-size: 38px;
         }
 
         p{
